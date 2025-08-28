@@ -11,5 +11,13 @@ git commit -m "wrote a readme file"
 # 查看提交状态
 git status
 
-# 查看修改内容
+
+
+# 查看修改内容,注意add之前才能看diff
 git diff
+
+# 查看日志
+git log
+
+# 把本地仓库的内容推送到github仓库
+git push origin master
